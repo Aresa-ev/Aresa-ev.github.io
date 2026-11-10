@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALAGUAS: K-Sea Travel & Tours</title>
+    <meta name="description" content="Discover the untouched beauty of Calaguas Island, Camarines Norte. Specialized boat transfers, luxury eco-camping, day tours, and barkada group travel packages.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <div class="logo-icon"><i class="fa-solid fa-compass"></i></div>
+                <div class="logo-text">
+                    <span class="brand-title">K-Sea</span>
+                    <span class="brand-subtitle">TRAVEL & TOURS</span>
+                </div>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Calaguas</a>
+                <a href="#packages" class="nav-link">Packages</a>
+                <a href="#boat-trips" class="nav-link">Boat Trips</a>
+                <a href="#why-us" class="nav-link">Why Us</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#booking" class="btn btn-primary nav-cta">
+                    <span>Plan Your Trip</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION (BENTO GRID DESIGN DIRECTION) -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-bento-grid">
+                    
+                    <!-- Main Central Banner Card -->
+                    <div class="bento-card bento-hero-main glass-panel">
+                        <div class="hero-bg-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80" alt="Calaguas White Sand Beach" class="hero-bg-img">
+                        
+                        <div class="bento-content">
+                            <div class="badge-pill">
+                                <i class="fa-solid fa-certificate"></i>
+                                <span>Official Calaguas Tour Operator</span>
+                            </div>
+                            
+                            <h1 class="hero-headline">
+                                Where Nature <br>
+                                <span class="serif-emphasis">Meets Wonder</span>
+                            </h1>
+                            
+                            <p class="hero-description">
+                                Experience the pristine turquoise waters and powdery white sands of Mahabang Buhangin. Seamless boat transportation, curated island tours, and sustainable travel experiences.
+                            </p>
+                            
+                            <div class="hero-cta-group">
+                                <a href="#packages" class="btn btn-primary">
+                                    <span>Explore Packages</span>
+                                    <i class="fa-solid fa-compass"></i>
+                                </a>
+                                <a href="#booking" class="btn btn-secondary">
+                                    <span>Start Planning</span>
+                                </a>
+                            </div>
+
+                            <div class="hero-scroll-indicator">
+                                <span>SCROLL TO EXPLORE</span>
+                                <div class="mouse-icon">
+                                    <div class="wheel"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Side Photo Card 1: Lush Coastal Hills -->
+                    <div class="bento-card bento-photo-card bento-top-right glass-card">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" alt="Crystal Turquoise Ocean" class="bento-img">
+                        <div class="bento-img-overlay">
+                            <span class="photo-tag">Mahabang Buhangin</span>
+                        </div>
+                    </div>
+
+                    <!-- Side Photo Card 2: Boat Transfer -->
+                    <div class="bento-card bento-photo-card bento-bottom-left glass-card">
+                        <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80" alt="Outrigger Boat Cruise" class="bento-img">
+                        <div class="bento-img-overlay">
+                            <span class="photo-tag">Private Outrigger Boat</span>
+                        </div>
+                    </div>
+
+                    <!-- Side Photo Card 3: Tropical Paradise -->
+                    <div class="bento-card bento-photo-card bento-bottom-right glass-card">
+                        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80" alt="Sunset over Calaguas Beach" class="bento-img">
+                        <div class="bento-img-overlay">
+                            <span class="photo-tag">Unspoiled Sanctuaries</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT CALAGUAS SECTION -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-wrapper glass-card">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80" alt="Island Landscape" class="about-main-img">
+                        <div class="about-location-badge glass-panel">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <strong>Camarines Norte</strong>
+                                <span>Bicol Region, Philippines</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+                        <div class="section-tag">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>Destination Spotlight</span>
+                        </div>
+                        <h2 class="section-title">
+                            Where Nature Meets <span class="serif-emphasis">Serenity</span>
+                        </h2>
+                        <p class="about-text">
+                            Tucked away in the municipality of Vinzons, Camarines Norte, Calaguas Island is home to <strong>Mahabang Buhangin</strong> — a legendary stretch of powdery, pure white sand flanked by rolling emerald hills and crystal-clear turquoise waters.
+                        </p>
+                        <p class="about-text">
+                            Far removed from congested commercial beach resorts, Calaguas offers a tranquil, untouched haven. Whether you wish to camp under starry skies, trek scenic hilltops, or glide over calm coastal ocean waves, our agency ensures your journey is safe, eco-responsible, and deeply restorative.
+                        </p>
+
+                        <div class="about-stats-grid">
+                            <div class="stat-card glass-card">
+                                <span class="stat-number">1.2<small>km</small></span>
+                                <span class="stat-label">Powdery White Sand</span>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <span class="stat-number">100<small>%</small></span>
+                                <span class="stat-label">Untouched Nature</span>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <span class="stat-number">2<small>hrs</small></span>
+                                <span class="stat-label">Scenic Boat Journey</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRAVEL PACKAGES SECTION -->
+        <section id="packages" class="section packages-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-suitcase"></i>
+                        <span>Curated Experiences</span>
+                    </div>
+                    <h2 class="section-title">Exclusive Travel <span class="serif-emphasis">Packages</span></h2>
+                    <p class="section-subtitle">Select an all-inclusive package tailored for solo adventurers, couples, or group getaways.</p>
+                </div>
+
+                <!-- Packages Grid -->
+                <div class="packages-grid">
+                    
+                    <!-- Package 1 -->
+                    <div class="package-card glass-card" data-category="day-tour">
+                        <div class="package-img-box">
+                            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" alt="Island Day Tour">
+                            <span class="package-tag">Day Tour</span>
+                        </div>
+                        <div class="package-body">
+                            <div class="package-meta">
+                                <span><i class="fa-regular fa-clock"></i> 1 Day (6:00 AM - 5:00 PM)</span>
+                                <span class="slots-badge"><i class="fa-solid fa-user-check"></i> 8 Slots Open</span>
+                            </div>
+                            <h3 class="package-title">Calaguas Island Express Day Tour</h3>
+                            <p class="package-desc">Ideal for travelers tight on schedule. Includes roundtrip boat transfers, island entry fees, lunch feast, and trekking.</p>
+                            
+                            <div class="package-inclusions">
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Roundtrip Outrigger Boat</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Island Buffet Lunch</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Environmental & Entry Fees</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Trekking Guide</span>
+                            </div>
+
+                            <div class="package-footer">
+                                <div class="package-price">
+                                    <span class="price-label">Starting at</span>
+                                    <span class="price-amount">₱1,850 <small>/ person</small></span>
+                                </div>
+                                <div class="package-actions">
+                                    <button class="btn btn-outline btn-sm view-details-btn" data-package-id="pkg-1">Details</button>
+                                    <button class="btn btn-primary btn-sm book-package-btn" data-package-id="pkg-1" data-package-name="Calaguas Express Day Tour">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package 2 -->
+                    <div class="package-card glass-card featured-package" data-category="overnight">
+                        <div class="package-img-box">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Overnight Camping Experience">
+                            <span class="package-tag popular-tag"><i class="fa-solid fa-star"></i> Most Popular</span>
+                        </div>
+                        <div class="package-body">
+                            <div class="package-meta">
+                                <span><i class="fa-regular fa-clock"></i> 2 Days, 1 Night</span>
+                                <span class="slots-badge"><i class="fa-solid fa-user-check"></i> 12 Slots Open</span>
+                            </div>
+                            <h3 class="package-title">Overnight Island Camping & Glamping</h3>
+                            <p class="package-desc">Immerse yourself under the stars. Includes full meals, camping gear or cottage, island hopping, and beach bonfire setup.</p>
+                            
+                            <div class="package-inclusions">
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Roundtrip Speedboat / Outrigger</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> 4 Full Prepared Meals</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Weatherproof Tents / Tarp</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Island Hopping & Snorkeling</span>
+                            </div>
+
+                            <div class="package-footer">
+                                <div class="package-price">
+                                    <span class="price-label">Starting at</span>
+                                    <span class="price-amount">₱3,450 <small>/ person</small></span>
+                                </div>
+                                <div class="package-actions">
+                                    <button class="btn btn-outline btn-sm view-details-btn" data-package-id="pkg-2">Details</button>
+                                    <button class="btn btn-primary btn-sm book-package-btn" data-package-id="pkg-2" data-package-name="Overnight Island Camping & Glamping">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package 3 -->
+                    <div class="package-card glass-card" data-category="barkada">
+                        <div class="package-img-box">
+                            <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80" alt="Group Barkada Tour">
+                            <span class="package-tag">Barkada Group</span>
+                        </div>
+                        <div class="package-body">
+                            <div class="package-meta">
+                                <span><i class="fa-regular fa-clock"></i> 3 Days, 2 Nights</span>
+                                <span class="slots-badge"><i class="fa-solid fa-users"></i> Min. 6 Pax</span>
+                            </div>
+                            <h3 class="package-title">Barkada & Group Eco-Tour Expedition</h3>
+                            <p class="package-desc">Custom tailored for groups and family retreats. Private boat charter, cottage accommodations, seafood grill, and dedicated trip coordinator.</p>
+                            
+                            <div class="package-inclusions">
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Private Boat Charter</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Beachfront Cottage Stay</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> All Meals & Fresh Bicolano Seafood</span>
+                                <span class="inclusion-item"><i class="fa-solid fa-check"></i> Dedicated Tour Lead & Snorkel Gear</span>
+                            </div>
+
+                            <div class="package-footer">
+                                <div class="package-price">
+                                    <span class="price-label">Group Rate</span>
+                                    <span class="price-amount">₱2,950 <small>/ person</small></span>
+                                </div>
+                                <div class="package-actions">
+                                    <button class="btn btn-outline btn-sm view-details-btn" data-package-id="pkg-3">Details</button>
+                                    <button class="btn btn-primary btn-sm book-package-btn" data-package-id="pkg-3" data-package-name="Barkada & Group Eco-Tour Expedition">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- BOAT TRIPS & TRANSPORTATION SECTION -->
+        <section id="boat-trips" class="section boat-section">
+            <div class="container">
+                <div class="boat-container glass-panel">
+                    <div class="boat-info-col">
+                        <div class="section-tag">
+                            <i class="fa-solid fa-ship"></i>
+                            <span>Maritime Connectivity</span>
+                        </div>
+                        <h2 class="section-title">Your Journey Begins <span class="serif-emphasis">at Sea</span></h2>
+                        <p class="boat-desc">
+                            Safety and comfort are at the heart of our operations. Our licensed motorized outriggers and modern tourist speedboats depart daily from key ports in Camarines Norte under Coast Guard clearance.
+                        </p>
+
+                        <div class="boat-specs-grid">
+                            <div class="spec-item">
+                                <div class="spec-icon"><i class="fa-solid fa-anchor"></i></div>
+                                <div>
+                                    <strong>Departure Ports</strong>
+                                    <p>Vinzons Port / Paracale Port</p>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-icon"><i class="fa-solid fa-clock"></i></div>
+                                <div>
+                                    <strong>Travel Duration</strong>
+                                    <p>1.5 - 2 Hours (Sea dependent)</p>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                                <div>
+                                    <strong>Safety Equipment</strong>
+                                    <p>Coast Guard Vests & First Aid</p>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-icon"><i class="fa-solid fa-users"></i></div>
+                                <div>
+                                    <strong>Vessel Capacity</strong>
+                                    <p>10 - 25 Licensed Passengers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boat-schedule-col glass-card">
+                        <h3 class="schedule-title"><i class="fa-solid fa-calendar-days"></i> Daily Boat Schedule</h3>
+                        
+                        <div class="schedule-table">
+                            <div class="schedule-row header-row">
+                                <span>Trip Type</span>
+                                <span>Departure</span>
+                                <span>Port</span>
+                            </div>
+                            <div class="schedule-row">
+                                <span>Morning Departure</span>
+                                <span>06:00 AM - 07:30 AM</span>
+                                <span>Vinzons Port</span>
+                            </div>
+                            <div class="schedule-row">
+                                <span>Midday Charter</span>
+                                <span>10:30 AM - 11:30 AM</span>
+                                <span>Paracale Port</span>
+                            </div>
+                            <div class="schedule-row">
+                                <span>Return Voyage</span>
+                                <span>01:00 PM - 03:00 PM</span>
+                                <span>Mahabang Buhangin</span>
+                            </div>
+                        </div>
+
+                        <div class="boat-note">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <p>Schedules are subject to Coast Guard weather advisories and sea conditions for guest safety.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US SECTION -->
+        <section id="why-us" class="section why-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-award"></i>
+                        <span>Agency Distinction</span>
+                    </div>
+                    <h2 class="section-title">Why Travel With <span class="serif-emphasis">Calaguas Escapes</span></h2>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-route"></i></div>
+                        <h3>Seamless Logistics</h3>
+                        <p>We manage all port permits, boat charters, island entry fees, and cottage reservations so you can unwind effortlessly.</p>
+                    </div>
+
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-life-ring"></i></div>
+                        <h3>Certified Maritime Safety</h3>
+                        <p>Every boat in our fleet is Coast Guard registered with complete life-saving gear and experienced island boat captains.</p>
+                    </div>
+
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-people-roof"></i></div>
+                        <h3>Local Island Guides</h3>
+                        <p>Native Bicolano tour leads who know every hidden cove, trekking path, and best snorkeling reef in Calaguas.</p>
+                    </div>
+
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                        <h3>Eco-Friendly Tourism</h3>
+                        <p>We strictly practice Leave-No-Trace principles to ensure Calaguas remains untouched and pristine for generations to come.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW BOOKING WORKS SECTION -->
+        <section id="how-it-works" class="section steps-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-list-check"></i>
+                        <span>Simple Journey Planning</span>
+                    </div>
+                    <h2 class="section-title">How Your Booking <span class="serif-emphasis">Works</span></h2>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step-card glass-card">
+                        <div class="step-number">01</div>
+                        <h3>Select Package</h3>
+                        <p>Choose your preferred tour duration, whether an express day trip or overnight glamping adventure.</p>
+                    </div>
+
+                    <div class="step-card glass-card">
+                        <div class="step-number">02</div>
+                        <h3>Submit Inquiry</h3>
+                        <p>Fill out our simple travel form with preferred dates, group size, and custom boat requirements.</p>
+                    </div>
+
+                    <div class="step-card glass-card">
+                        <div class="step-number">03</div>
+                        <h3>Receive Confirmation</h3>
+                        <p>Our team verifies boat availability, calculates exact pricing, and issues your travel voucher reference.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PHOTO GALLERY SECTION -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Visual Showcase</span>
+                    </div>
+                    <h2 class="section-title">Captured <span class="serif-emphasis">Moments</span></h2>
+                    <p class="section-subtitle">Real glimpses of paradise from recent Calaguas expeditions.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item glass-card" data-full="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80" data-caption="Mahabang Buhangin Shoreline">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Mahabang Buhangin Beach">
+                        <div class="gallery-overlay"><i class="fa-solid fa-expand"></i><span>Mahabang Buhangin</span></div>
+                    </div>
+
+                    <div class="gallery-item glass-card" data-full="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80" data-caption="Turquoise Lagoon Waters">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" alt="Turquoise Ocean Water">
+                        <div class="gallery-overlay"><i class="fa-solid fa-expand"></i><span>Crystal Lagoon</span></div>
+                    </div>
+
+                    <div class="gallery-item glass-card" data-full="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1600&q=80" data-caption="Boat Cruise at Sunrise">
+                        <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80" alt="Outrigger Boat Cruise">
+                        <div class="gallery-overlay"><i class="fa-solid fa-expand"></i><span>Boat Passage</span></div>
+                    </div>
+
+                    <div class="gallery-item glass-card" data-full="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1600&q=80" data-caption="Hilltop Sunset Viewpoint">
+                        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80" alt="Sunset Viewpoint Trek">
+                        <div class="gallery-overlay"><i class="fa-solid fa-expand"></i><span>Sunset Viewpoint</span></div>
+                    </div>
+
+                    <div class="gallery-item glass-card" data-full="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?auto=format&fit=crop&w=1600&q=80" data-caption="Island Campfire Night">
+                        <img src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?auto=format&fit=crop&w=800&q=80" alt="Overnight Camping under Stars">
+                        <div class="gallery-overlay"><i class="fa-solid fa-expand"></i><span>Beachside Camping</span></div>
+                    </div>
+
+                    <div class="gallery-item glass-card" data-full="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=80" data-caption="Coastal Palms & White Sands">
+                        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80" alt="Tropical Palms on Beach">
+                        <div class="gallery-overlay"><i class="fa-solid fa-expand"></i><span>Pristine Cove</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BOOKING INQUIRY FORM SECTION -->
+        <section id="booking" class="section booking-section">
+            <div class="container">
+                <div class="booking-wrapper glass-panel">
+                    <div class="booking-intro">
+                        <div class="section-tag">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>Reserve Your Passage</span>
+                        </div>
+                        <h2 class="section-title">Start Your Calaguas <span class="serif-emphasis">Journey</span></h2>
+                        <p>Submit your travel details to request a booking inquiry. Our coordinators will review boat schedules and confirm availability within 2 hours.</p>
+
+                        <div class="booking-highlights">
+                            <div class="b-highlight"><i class="fa-solid fa-check"></i> Instant Pending Voucher Reference</div>
+                            <div class="b-highlight"><i class="fa-solid fa-check"></i> Zero upfront payment required for inquiry</div>
+                            <div class="b-highlight"><i class="fa-solid fa-check"></i> Personalized itinerary adjustments</div>
+                        </div>
+                    </div>
+
+                    <form id="booking-form" class="booking-form glass-card">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name"><i class="fa-solid fa-user"></i> Full Name *</label>
+                                <input type="text" id="full-name" required placeholder="e.g. Maria Santos">
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="fa-solid fa-envelope"></i> Email Address *</label>
+                                <input type="email" id="email" required placeholder="name@example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone"><i class="fa-solid fa-phone"></i> Contact Number *</label>
+                                <input type="tel" id="phone" required placeholder="0917 123 4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="travel-date"><i class="fa-solid fa-calendar"></i> Preferred Travel Date *</label>
+                                <input type="date" id="travel-date" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="selected-package"><i class="fa-solid fa-cubes"></i> Select Package *</label>
+                                <select id="selected-package" required>
+                                    <option value="" disabled selected>Choose a Package</option>
+                                    <option value="pkg-1" data-price="1850">Calaguas Express Day Tour (₱1,850/pax)</option>
+                                    <option value="pkg-2" data-price="3450">Overnight Camping & Glamping (₱3,450/pax)</option>
+                                    <option value="pkg-3" data-price="2950">Barkada & Group Eco-Tour (₱2,950/pax)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="travelers-count"><i class="fa-solid fa-users"></i> Number of Travelers *</label>
+                                <input type="number" id="travelers-count" min="1" max="50" value="1" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="departure-port"><i class="fa-solid fa-anchor"></i> Preferred Departure Port</label>
+                            <select id="departure-port">
+                                <option value="Vinzons Port">Vinzons Port (Standard)</option>
+                                <option value="Paracale Port">Paracale Port (Alternative)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="special-requests"><i class="fa-solid fa-message"></i> Special Requests / Meal Preferences</label>
+                            <textarea id="special-requests" rows="3" placeholder="Dietary needs, tent preferences, private boat charter requests..."></textarea>
+                        </div>
+
+                        <!-- Price Estimate Card -->
+                        <div class="price-calculator-box glass-panel" id="price-calculator">
+                            <div class="calc-row">
+                                <span>Estimated Total Rate:</span>
+                                <span class="calc-total-amount" id="calc-total">₱0.00</span>
+                            </div>
+                            <p class="calc-subtext"><i class="fa-solid fa-info-circle"></i> Rates are tentative subject to final package selection and group discount confirmation.</p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="submit-booking-btn">
+                            <span>Submit Booking Inquiry</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT & LOCATION SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info-col">
+                        <div class="section-tag">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>Get In Touch</span>
+                        </div>
+                        <h2 class="section-title">We are here to <span class="serif-emphasis">Assist</span></h2>
+                        <p>Have questions about weather conditions, boat chartering, or custom group itineraries? Reach out directly to our Camarines Norte office.</p>
+
+                        <div class="contact-details">
+                            <div class="c-detail-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <strong>Main Port Hub</strong>
+                                    <p>Vinzons Port Terminal, Vinzons, Camarines Norte, Philippines</p>
+                                </div>
+                            </div>
+                            <div class="c-detail-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <strong>Email Inquiries</strong>
+                                    <p>haha@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="c-detail-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <strong>Hotline / Viber</strong>
+                                    <p>+63 917 890 1234 / +63 920 555 7890</p>
+                                </div>
+                            </div>
+                            <div class="c-detail-item">
+                                <i class="fa-brands fa-facebook"></i>
+                                <div>
+                                    <strong>Facebook Page</strong>
+                                    <p>fb.com/K-SeaTravelTours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-col glass-card">
+                        <h3>Send a General Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label>Your Email</label>
+                                <input type="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea rows="4" required placeholder="How can we help you plan your trip?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <div class="logo-icon"><i class="fa-solid fa-compass"></i></div>
+                        <div class="logo-text">
+                            <span class="brand-title">K-Sea</span>
+                            <span class="brand-subtitle">TRAVEL & TOURS</span>
+                        </div>
+                    </div>
+                    <p class="footer-bio">Your trusted local specialist for premium boat transfers, island camping, and curated eco-tours in Calaguas Island, Camarines Norte.</p>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About Calaguas</a></li>
+                        <li><a href="#packages">Tour Packages</a></li>
+                        <li><a href="#boat-trips">Boat Transfers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#why-us">Why Choose Us</a></li>
+                        <li><a href="#how-it-works">Booking Process</a></li>
+                        <li><a href="#gallery">Photo Gallery</a></li>
+                        <li><a href="#booking">Inquiry Form</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social-col">
+                    <h4>Connect With Us</h4>
+                    <p>Follow our daily island dispatches and ocean updates.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 K-Sea Travel & Tours. All Rights Reserved. Eco-Tourism Partner Camarines Norte.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL: PACKAGE DETAILS -->
+    <div id="package-modal" class="modal-overlay">
+        <div class="modal-content glass-panel">
+            <button class="modal-close" id="close-pkg-modal"><i class="fa-solid fa-xmark"></i></button>
+            <div id="pkg-modal-body">
+                <!-- Dynamically populated via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: BOOKING CONFIRMATION / PENDING STATUS -->
+    <div id="confirmation-modal" class="modal-overlay">
+        <div class="modal-content glass-panel text-center">
+            <button class="modal-close" id="close-confirm-modal"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="confirmation-icon">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+            </div>
+            
+            <span class="status-badge-pending">STATUS: PENDING VERIFICATION</span>
+            
+            <h2 class="confirm-title">Inquiry Submitted!</h2>
+            <p class="confirm-desc">Thank you for choosing K-Sea Travel & Tours. Your travel inquiry has been registered in our system.</p>
+
+            <div class="ticket-card glass-card text-left">
+                <div class="ticket-row">
+                    <span>Reference No:</span>
+                    <strong id="ticket-ref" class="text-primary">CAL-2026-XXXX</strong>
+                </div>
+                <div class="ticket-row">
+                    <span>Lead Guest:</span>
+                    <strong id="ticket-name">-</strong>
+                </div>
+                <div class="ticket-row">
+                    <span>Selected Package:</span>
+                    <strong id="ticket-pkg">-</strong>
+                </div>
+                <div class="ticket-row">
+                    <span>Travel Date:</span>
+                    <strong id="ticket-date">-</strong>
+                </div>
+                <div class="ticket-row">
+                    <span>Travelers:</span>
+                    <strong id="ticket-count">-</strong>
+                </div>
+                <div class="ticket-row">
+                    <span>Estimated Total:</span>
+                    <strong id="ticket-total" class="text-primary">₱0.00</strong>
+                </div>
+            </div>
+
+            <p class="confirm-note"><i class="fa-solid fa-circle-info"></i> A tour coordinator will call you shortly to verify boat charter availability before confirming your reservation.</p>
+
+            <button class="btn btn-primary" id="confirm-ok-btn">Understood</button>
+        </div>
+    </div>
+
+    <!-- MODAL: GALLERY LIGHTBOX -->
+    <div id="lightbox-modal" class="modal-overlay lightbox-overlay">
+        <button class="modal-close" id="close-lightbox"><i class="fa-solid fa-xmark"></i></button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Gallery Preview">
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- External Script -->
+    <script src="script.js" defer></script>
+</body>
+</html>
